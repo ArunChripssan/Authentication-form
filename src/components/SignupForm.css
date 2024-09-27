@@ -1,0 +1,103 @@
+.signupcontainer {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signupformContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    gap: 13px;
+}
+
+.signupformContainer h1 {
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+}
+
+.fullname-container {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.firstname {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstname input {
+    padding: 5px 10px;
+}
+
+.lastname {
+    display: flex;
+    flex-direction: column;
+}
+
+.lastname input {
+    padding: 5px 10px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.email input {
+    padding: 5px 10px;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.password input {
+    padding: 5px 10px;
+}
+
+.confirmPassword {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.confirmPassword input {
+    padding: 5px 10px;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: hsl(0, 0%, 14%);
+}
+
+.login-link {
+    font-size: 1.2rem;
+}
+
+.login-link {
+    color: black;
+}
+
+.errors {
+    color: red;
+    margin-top: 1px;
+    font-size: 1rem;
+}
